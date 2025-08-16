@@ -1,0 +1,12 @@
+# Supabase設定（本番環境用）
+# Supabaseプロジェクト作成後に値を設定してください
+
+DATABASE_URL=postgresql://postgres:[YOUR-PASSWORD]@db.[YOUR-PROJECT-REF].supabase.co:5432/postgres
+SUPABASE_URL=https://[YOUR-PROJECT-REF].supabase.co
+SUPABASE_KEY=[YOUR-ANON-KEY]
+
+# デバッグ設定
+DEBUG=False
+
+# CORS設定
+ALLOWED_ORIGINS=https://[YOUR-VERCEL-DOMAIN].vercel.app
