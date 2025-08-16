@@ -9,10 +9,6 @@ load_dotenv()
 # データベースURL (SQLite for development, PostgreSQL/Supabase for production)
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./tasks.db")
 
-# 本番環境でSQLiteを使用（Supabase接続問題の回避）
-if DATABASE_URL.startswith("postgresql://"):
-    DATABASE_URL = "sqlite:///./tasks.db"
-
 # SQLAlchemy エンジン作成
 engine = create_engine(
     DATABASE_URL,
