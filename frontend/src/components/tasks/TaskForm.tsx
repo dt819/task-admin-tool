@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Task, TaskCreate, TaskUpdate, TaskStatus, TaskPriority } from '../../types/task';
+import type { Task, TaskCreate, TaskUpdate, TaskStatus, TaskPriority } from '../../types/task';
 import { TASK_STATUS, TASK_PRIORITY, MAX_TITLE_LENGTH, MAX_DESCRIPTION_LENGTH } from '../../utils/constants';
 import Button from '../common/Button';
 

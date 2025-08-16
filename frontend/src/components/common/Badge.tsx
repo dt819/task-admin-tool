@@ -1,5 +1,5 @@
 import React from 'react';
-import { TaskStatus, TaskPriority } from '../../types/task';
+import type { TaskStatus, TaskPriority } from '../../types/task';
 import { TASK_STATUS, TASK_PRIORITY } from '../../utils/constants';
 
 interface BadgeProps {

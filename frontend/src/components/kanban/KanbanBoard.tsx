@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { DragDropContext, DropResult } from '@hello-pangea/dnd';
+import { DragDropContext } from '@hello-pangea/dnd';
+import type { DropResult } from '@hello-pangea/dnd';
 import { useTaskStore } from '../../stores/taskStore';
-import { Task } from '../../types/task';
+import type { Task } from '../../types/task';
 import { KANBAN_COLUMNS } from '../../utils/constants';
 import KanbanColumn from './KanbanColumn';
 import Loading from '../common/Loading';

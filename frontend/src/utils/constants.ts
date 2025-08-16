@@ -1,4 +1,4 @@
-import { TaskStatus, TaskPriority } from '../types/task';
+import type { TaskStatus, TaskPriority } from '../types/task';
 
 // タスクステータス定義
 export const TASK_STATUS: Record<TaskStatus, { label: string; color: string; bgColor: string }> = {

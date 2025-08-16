@@ -1,6 +1,6 @@
 import React from 'react';
 import { Droppable, Draggable } from '@hello-pangea/dnd';
-import { Task, TaskStatus } from '../../types/task';
+import type { Task, TaskStatus } from '../../types/task';
 import { TASK_STATUS } from '../../utils/constants';
 import TaskCard from '../tasks/TaskCard';
 

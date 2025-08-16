@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Task, TaskCreate, TaskUpdate, TasksByStatus } from '../types/task';
+import type { Task, TaskCreate, TaskUpdate, TasksByStatus } from '../types/task';
 
 // 開発環境ではViteのプロキシを使用、本番環境では環境変数を使用
 const API_BASE_URL = import.meta.env.VITE_API_URL || '';

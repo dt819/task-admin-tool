@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useTaskStore } from '../../stores/taskStore';
-import { Task, TaskStatus, TaskPriority } from '../../types/task';
+import type { Task, TaskStatus, TaskPriority } from '../../types/task';
 import { TASK_STATUS, TASK_PRIORITY, TASKS_PER_PAGE } from '../../utils/constants';
 import TaskCard from './TaskCard';
 import TaskForm from './TaskForm';

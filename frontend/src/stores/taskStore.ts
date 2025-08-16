@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Task, TasksByStatus, TaskCreate, TaskUpdate } from '../types/task';
+import type { Task, TasksByStatus, TaskCreate, TaskUpdate } from '../types/task';
 import { tasksApi } from '../services/api';
 
 interface TaskStore {
